@@ -20,7 +20,7 @@ export const Card = (category) => {
 
   return (
     <div
-      className='grid grid-cols-3 gap-3 mb-4'
+      className='mx-4 md:grid md:grid-cols-3 md:gap-3 mb-4'
     >
       {images.map(({id,title,url}) => (
         <GifItem

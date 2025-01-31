@@ -23,7 +23,7 @@ function App() {
 
       <main className="max-w-6xl mx-auto">
         {/* buscador */}
-        <section className="my-4">
+        <section className="my-4 mx-4 md:mx-0">
           <Search
             onNewValue={onNewValue}
           />
